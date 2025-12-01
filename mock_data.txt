@@ -1,0 +1,708 @@
+--- EQUIPOS MÉDICOS ---
+
+Código Activo: EQ2023001
+  Nombre: Electrocardiógrafo
+  Marca/Modelo: Dräger Dräger-562
+  Ubicación: Emergencias
+  Fecha de Alta: 2025-07-19
+  Resumen: Este es un resumen del equipo de tipo Electrocardiógrafo
+
+Código Activo: EQ2023002
+  Nombre: Monitor de Paciente
+  Marca/Modelo: Mindray Mindray-876
+  Ubicación: Almacén Central
+  Fecha de Alta: 2025-07-19
+  Resumen: Este es un resumen del equipo de tipo Monitor de Paciente
+
+Código Activo: EQ2023003
+  Nombre: Desfibrilador
+  Marca/Modelo: Medtronic Medtronic-759
+  Ubicación: Almacén Central
+  Fecha de Alta: 2025-08-24
+  Resumen: Este es un resumen del equipo de tipo Desfibrilador
+
+Código Activo: EQ2023004
+  Nombre: Monitor de Paciente
+  Marca/Modelo: Medtronic Medtronic-528
+  Ubicación: Quirófano 1
+  Fecha de Alta: 2025-05-30
+  Resumen: Este es un resumen del equipo de tipo Monitor de Paciente
+
+Código Activo: EQ2023005
+  Nombre: Respirador
+  Marca/Modelo: Medtronic Medtronic-765
+  Ubicación: Emergencias
+  Fecha de Alta: 2025-08-03
+  Resumen: Este es un resumen del equipo de tipo Respirador
+
+Código Activo: EQ2023006
+  Nombre: Electrocardiógrafo
+  Marca/Modelo: Mindray Mindray-981
+  Ubicación: Quirófano 1
+  Fecha de Alta: 2024-12-28
+  Resumen: Este es un resumen del equipo de tipo Electrocardiógrafo
+
+Código Activo: EQ2023007
+  Nombre: Bomba de Infusión
+  Marca/Modelo: Medtronic Medtronic-549
+  Ubicación: Planta 3 Habitación 301
+  Fecha de Alta: 2025-10-26
+  Resumen: Este es un resumen del equipo de tipo Bomba de Infusión
+
+Código Activo: EQ2023008
+  Nombre: Electrocardiógrafo
+  Marca/Modelo: GE Healthcare GE Healthcare-397
+  Ubicación: Quirófano 1
+  Fecha de Alta: 2025-10-13
+  Resumen: Este es un resumen del equipo de tipo Electrocardiógrafo
+
+Código Activo: EQ2023009
+  Nombre: Desfibrilador
+  Marca/Modelo: GE Healthcare GE Healthcare-186
+  Ubicación: Almacén Central
+  Fecha de Alta: 2025-06-08
+  Resumen: Este es un resumen del equipo de tipo Desfibrilador
+
+Código Activo: EQ2023010
+  Nombre: Respirador
+  Marca/Modelo: Mindray Mindray-710
+  Ubicación: Emergencias
+  Fecha de Alta: 2025-04-03
+  Resumen: Este es un resumen del equipo de tipo Respirador
+
+Código Activo: EQ2023011
+  Nombre: Desfibrilador
+  Marca/Modelo: Medtronic Medtronic-669
+  Ubicación: UCI
+  Fecha de Alta: 2025-04-02
+  Resumen: Este es un resumen del equipo de tipo Desfibrilador
+
+Código Activo: EQ2023012
+  Nombre: Respirador
+  Marca/Modelo: Philips Philips-972
+  Ubicación: Quirófano 1
+  Fecha de Alta: 2025-09-09
+  Resumen: Este es un resumen del equipo de tipo Respirador
+
+Código Activo: EQ2023013
+  Nombre: Bomba de Infusión
+  Marca/Modelo: GE Healthcare GE Healthcare-198
+  Ubicación: Emergencias
+  Fecha de Alta: 2025-07-06
+  Resumen: Este es un resumen del equipo de tipo Bomba de Infusión
+
+Código Activo: EQ2023014
+  Nombre: Monitor de Paciente
+  Marca/Modelo: Medtronic Medtronic-309
+  Ubicación: UCI
+  Fecha de Alta: 2025-03-01
+  Resumen: Este es un resumen del equipo de tipo Monitor de Paciente
+
+Código Activo: EQ2023015
+  Nombre: Electrocardiógrafo
+  Marca/Modelo: Medtronic Medtronic-811
+  Ubicación: Planta 3 Habitación 301
+  Fecha de Alta: 2025-06-07
+  Resumen: Este es un resumen del equipo de tipo Electrocardiógrafo
+
+Código Activo: EQ2023016
+  Nombre: Bomba de Infusión
+  Marca/Modelo: Mindray Mindray-807
+  Ubicación: Emergencias
+  Fecha de Alta: 2025-07-14
+  Resumen: Este es un resumen del equipo de tipo Bomba de Infusión
+
+Código Activo: EQ2023017
+  Nombre: Respirador
+  Marca/Modelo: Mindray Mindray-867
+  Ubicación: UCI
+  Fecha de Alta: 2025-10-11
+  Resumen: Este es un resumen del equipo de tipo Respirador
+
+Código Activo: EQ2023018
+  Nombre: Respirador
+  Marca/Modelo: Philips Philips-966
+  Ubicación: Planta 3 Habitación 301
+  Fecha de Alta: 2025-08-01
+  Resumen: Este es un resumen del equipo de tipo Respirador
+
+Código Activo: EQ2023019
+  Nombre: Bomba de Infusión
+  Marca/Modelo: Medtronic Medtronic-534
+  Ubicación: UCI
+  Fecha de Alta: 2024-12-28
+  Resumen: Este es un resumen del equipo de tipo Bomba de Infusión
+
+Código Activo: EQ2023020
+  Nombre: Respirador
+  Marca/Modelo: Dräger Dräger-259
+  Ubicación: Planta 3 Habitación 301
+  Fecha de Alta: 2025-03-07
+  Resumen: Este es un resumen del equipo de tipo Respirador
+
+
+--- ÓRDENES DE TRABAJO ---
+
+ID Orden: 1008
+  ID Equipo: EQ2023001
+  Descripción: Necesita calibración
+  Prioridad: alta
+  Estado: CERRADA
+  Fecha Creación: 2025-11-17
+  Seguimiento:
+    - 18.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 20.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 21.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 23.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 25.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+
+ID Orden: 1022
+  ID Equipo: EQ2023001
+  Descripción: Fuga de aire en el circuito
+  Prioridad: media
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-20
+  Seguimiento:
+    - 23.11.2025. El equipo ha sido reparado y está en fase de pruebas.
+
+ID Orden: 1031
+  ID Equipo: EQ2023001
+  Descripción: Batería no carga
+  Prioridad: alta
+  Estado: CERRADA
+  Fecha Creación: 2025-11-08
+  Seguimiento:
+    - 09.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+
+ID Orden: 1033
+  ID Equipo: EQ2023001
+  Descripción: Muestra un error en la pantalla
+  Prioridad: media
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-28
+  Seguimiento:
+    - 29.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+
+ID Orden: 1043
+  ID Equipo: EQ2023001
+  Descripción: Necesita calibración
+  Prioridad: media
+  Estado: CERRADA
+  Fecha Creación: 2025-11-26
+  Seguimiento:
+    - 28.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+    - 30.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+    - 02.12.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 04.12.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 07.12.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+
+ID Orden: 1003
+  ID Equipo: EQ2023002
+  Descripción: Necesita calibración
+  Prioridad: baja
+  Estado: CERRADA
+  Fecha Creación: 2025-11-17
+  Seguimiento:
+    - 19.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 21.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+    - 23.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 25.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+
+ID Orden: 1018
+  ID Equipo: EQ2023002
+  Descripción: Muestra un error en la pantalla
+  Prioridad: media
+  Estado: CERRADA
+  Fecha Creación: 2025-11-25
+  Seguimiento:
+    - 26.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+
+ID Orden: 1023
+  ID Equipo: EQ2023003
+  Descripción: Necesita calibración
+  Prioridad: baja
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-10
+  Seguimiento:
+    - 13.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+
+ID Orden: 1007
+  ID Equipo: EQ2023004
+  Descripción: Fuga de aire en el circuito
+  Prioridad: media
+  Estado: CERRADA
+  Fecha Creación: 2025-11-09
+  Seguimiento:
+    - 10.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 13.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 15.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+
+ID Orden: 1026
+  ID Equipo: EQ2023004
+  Descripción: Fuga de aire en el circuito
+  Prioridad: alta
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-03
+  Seguimiento:
+    - 04.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 07.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+    - 10.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+
+ID Orden: 1042
+  ID Equipo: EQ2023004
+  Descripción: Realizar mantenimiento preventivo
+  Prioridad: media
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-06
+  Seguimiento:
+    - 08.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+    - 10.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 11.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 13.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+
+ID Orden: 1048
+  ID Equipo: EQ2023004
+  Descripción: Realizar mantenimiento preventivo
+  Prioridad: media
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-27
+  Seguimiento:
+    - 29.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 02.12.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 04.12.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+    - 07.12.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 09.12.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+
+ID Orden: 1009
+  ID Equipo: EQ2023005
+  Descripción: El equipo no enciende
+  Prioridad: baja
+  Estado: CERRADA
+  Fecha Creación: 2025-11-21
+  Seguimiento:
+    - 24.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+    - 25.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 26.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 28.11.2025. La pieza ha llegado. Se procederá con la reparación.
+
+ID Orden: 1013
+  ID Equipo: EQ2023005
+  Descripción: Necesita calibración
+  Prioridad: baja
+  Estado: CERRADA
+  Fecha Creación: 2025-11-27
+  Seguimiento:
+    - 28.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 01.12.2025. La pieza ha llegado. Se procederá con la reparación.
+
+ID Orden: 1014
+  ID Equipo: EQ2023005
+  Descripción: El equipo no enciende
+  Prioridad: alta
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-13
+  Seguimiento:
+    - 15.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 16.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+    - 18.11.2025. El equipo ha sido reparado y está en fase de pruebas.
+
+ID Orden: 1001
+  ID Equipo: EQ2023006
+  Descripción: El equipo no enciende
+  Prioridad: baja
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-25
+  Seguimiento:
+    - 26.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 29.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 01.12.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 02.12.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+    - 04.12.2025. El equipo ha sido reparado y está en fase de pruebas.
+
+ID Orden: 1020
+  ID Equipo: EQ2023006
+  Descripción: Batería no carga
+  Prioridad: media
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-25
+  Seguimiento:
+    - 27.11.2025. El equipo ha sido reparado y está en fase de pruebas.
+    - 29.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+
+ID Orden: 1038
+  ID Equipo: EQ2023006
+  Descripción: Realizar mantenimiento preventivo
+  Prioridad: baja
+  Estado: CERRADA
+  Fecha Creación: 2025-11-03
+  Seguimiento:
+    - 06.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+    - 07.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 10.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+
+ID Orden: 1004
+  ID Equipo: EQ2023007
+  Descripción: Necesita calibración
+  Prioridad: baja
+  Estado: CERRADA
+  Fecha Creación: 2025-11-12
+  Seguimiento:
+    - 15.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+    - 17.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+
+ID Orden: 1019
+  ID Equipo: EQ2023007
+  Descripción: Muestra un error en la pantalla
+  Prioridad: baja
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-16
+  Seguimiento:
+    - 17.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+    - 19.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 22.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 23.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+
+ID Orden: 1036
+  ID Equipo: EQ2023007
+  Descripción: Batería no carga
+  Prioridad: media
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-23
+  Seguimiento:
+    - 26.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 29.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+
+ID Orden: 1050
+  ID Equipo: EQ2023007
+  Descripción: Necesita calibración
+  Prioridad: baja
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-06
+  Seguimiento:
+    - 08.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+
+ID Orden: 1010
+  ID Equipo: EQ2023008
+  Descripción: Muestra un error en la pantalla
+  Prioridad: baja
+  Estado: CERRADA
+  Fecha Creación: 2025-11-04
+  Seguimiento:
+    - 07.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+    - 10.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 11.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+
+ID Orden: 1035
+  ID Equipo: EQ2023008
+  Descripción: El equipo no enciende
+  Prioridad: alta
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-16
+  Seguimiento:
+    - 19.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+    - 21.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 23.11.2025. El equipo ha sido reparado y está en fase de pruebas.
+    - 26.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+    - 27.11.2025. La pieza ha llegado. Se procederá con la reparación.
+
+ID Orden: 1016
+  ID Equipo: EQ2023009
+  Descripción: El equipo no enciende
+  Prioridad: media
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-15
+  Seguimiento:
+    - 17.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 18.11.2025. El equipo ha sido reparado y está en fase de pruebas.
+
+ID Orden: 1045
+  ID Equipo: EQ2023009
+  Descripción: El equipo no enciende
+  Prioridad: alta
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-11
+  Seguimiento:
+    - 13.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 14.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+
+ID Orden: 1039
+  ID Equipo: EQ2023010
+  Descripción: Realizar mantenimiento preventivo
+  Prioridad: media
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-01
+  Seguimiento:
+    - 04.11.2025. El equipo ha sido reparado y está en fase de pruebas.
+    - 07.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+    - 08.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 11.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+
+ID Orden: 1040
+  ID Equipo: EQ2023010
+  Descripción: Necesita calibración
+  Prioridad: baja
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-26
+  Seguimiento:
+    - 29.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+    - 01.12.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+
+ID Orden: 1044
+  ID Equipo: EQ2023010
+  Descripción: Muestra un error en la pantalla
+  Prioridad: media
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-09
+  Seguimiento:
+    - 11.11.2025. La pieza ha llegado. Se procederá con la reparación.
+
+ID Orden: 1024
+  ID Equipo: EQ2023011
+  Descripción: Necesita calibración
+  Prioridad: alta
+  Estado: CERRADA
+  Fecha Creación: 2025-11-07
+  Seguimiento:
+    - 09.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+    - 12.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 13.11.2025. El equipo ha sido reparado y está en fase de pruebas.
+    - 16.11.2025. El equipo ha sido reparado y está en fase de pruebas.
+    - 19.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+
+ID Orden: 1015
+  ID Equipo: EQ2023012
+  Descripción: Necesita calibración
+  Prioridad: alta
+  Estado: CERRADA
+  Fecha Creación: 2025-11-06
+  Seguimiento:
+    - 07.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+    - 09.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 12.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+    - 15.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+
+ID Orden: 1029
+  ID Equipo: EQ2023012
+  Descripción: El equipo no enciende
+  Prioridad: media
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-11
+  Seguimiento:
+    - 14.11.2025. El equipo ha sido reparado y está en fase de pruebas.
+    - 17.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+    - 19.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 20.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 22.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+
+ID Orden: 1028
+  ID Equipo: EQ2023013
+  Descripción: Muestra un error en la pantalla
+  Prioridad: baja
+  Estado: CERRADA
+  Fecha Creación: 2025-11-22
+  Seguimiento:
+    - 24.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 25.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+    - 27.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+    - 28.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 01.12.2025. El equipo ha sido reparado y está en fase de pruebas.
+
+ID Orden: 1047
+  ID Equipo: EQ2023013
+  Descripción: Muestra un error en la pantalla
+  Prioridad: media
+  Estado: CERRADA
+  Fecha Creación: 2025-10-31
+  Seguimiento:
+    - 03.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 06.11.2025. La pieza ha llegado. Se procederá con la reparación.
+
+ID Orden: 1025
+  ID Equipo: EQ2023014
+  Descripción: Realizar mantenimiento preventivo
+  Prioridad: media
+  Estado: CERRADA
+  Fecha Creación: 2025-11-07
+  Seguimiento:
+    - 10.11.2025. La pieza ha llegado. Se procederá con la reparación.
+
+ID Orden: 1027
+  ID Equipo: EQ2023014
+  Descripción: El equipo no enciende
+  Prioridad: media
+  Estado: CERRADA
+  Fecha Creación: 2025-11-10
+  Seguimiento:
+    - 13.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+
+ID Orden: 1034
+  ID Equipo: EQ2023014
+  Descripción: Batería no carga
+  Prioridad: baja
+  Estado: CERRADA
+  Fecha Creación: 2025-11-19
+  Seguimiento:
+    - 21.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 23.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+    - 25.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+
+ID Orden: 1037
+  ID Equipo: EQ2023014
+  Descripción: Muestra un error en la pantalla
+  Prioridad: baja
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-03
+  Seguimiento:
+    - 04.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 05.11.2025. El equipo ha sido reparado y está en fase de pruebas.
+    - 07.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+    - 10.11.2025. El equipo ha sido reparado y está en fase de pruebas.
+    - 11.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+
+ID Orden: 1011
+  ID Equipo: EQ2023015
+  Descripción: Batería no carga
+  Prioridad: alta
+  Estado: PENDIENTE
+  Fecha Creación: 2025-10-31
+  Seguimiento:
+    - 03.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+    - 06.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+    - 07.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 10.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+
+ID Orden: 1041
+  ID Equipo: EQ2023015
+  Descripción: El equipo no enciende
+  Prioridad: baja
+  Estado: CERRADA
+  Fecha Creación: 2025-11-14
+  Seguimiento:
+    - 16.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+    - 18.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+    - 19.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 20.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 21.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+
+ID Orden: 1046
+  ID Equipo: EQ2023015
+  Descripción: Fuga de aire en el circuito
+  Prioridad: media
+  Estado: CERRADA
+  Fecha Creación: 2025-11-08
+  Seguimiento:
+    - 09.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 11.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 13.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+    - 14.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+
+ID Orden: 1049
+  ID Equipo: EQ2023015
+  Descripción: Realizar mantenimiento preventivo
+  Prioridad: media
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-24
+  Seguimiento:
+    - 25.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 26.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+    - 29.11.2025. El equipo ha sido reparado y está en fase de pruebas.
+    - 01.12.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 04.12.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+
+ID Orden: 1006
+  ID Equipo: EQ2023016
+  Descripción: El equipo no enciende
+  Prioridad: baja
+  Estado: CERRADA
+  Fecha Creación: 2025-11-27
+  Seguimiento:
+    - 28.11.2025. El equipo ha sido reparado y está en fase de pruebas.
+    - 01.12.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+    - 04.12.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 05.12.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 07.12.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+
+ID Orden: 1021
+  ID Equipo: EQ2023016
+  Descripción: Realizar mantenimiento preventivo
+  Prioridad: baja
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-25
+  Seguimiento:
+    - 26.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+    - 28.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+    - 29.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+
+ID Orden: 1005
+  ID Equipo: EQ2023017
+  Descripción: Fuga de aire en el circuito
+  Prioridad: baja
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-28
+  Seguimiento:
+    - 30.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+    - 03.12.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+    - 05.12.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 08.12.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+
+ID Orden: 1017
+  ID Equipo: EQ2023017
+  Descripción: Necesita calibración
+  Prioridad: baja
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-10
+  Seguimiento:
+    - 12.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 15.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+    - 17.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+    - 18.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 21.11.2025. El equipo ha sido reparado y está en fase de pruebas.
+
+ID Orden: 1032
+  ID Equipo: EQ2023017
+  Descripción: Necesita calibración
+  Prioridad: baja
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-05
+  Seguimiento:
+    - 07.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 10.11.2025. El equipo ha sido reparado y está en fase de pruebas.
+    - 13.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+
+ID Orden: 1002
+  ID Equipo: EQ2023018
+  Descripción: Batería no carga
+  Prioridad: media
+  Estado: CERRADA
+  Fecha Creación: 2025-11-11
+  Seguimiento:
+    - 14.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 16.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+    - 18.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+    - 21.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+
+ID Orden: 1012
+  ID Equipo: EQ2023019
+  Descripción: Batería no carga
+  Prioridad: baja
+  Estado: PENDIENTE
+  Fecha Creación: 2025-11-10
+  Seguimiento:
+    - 12.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+    - 15.11.2025. Pruebas finalizadas con éxito. El equipo está operativo.
+    - 17.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 19.11.2025. Se ha realizado una inspección inicial. Parece ser un problema con la fuente de alimentación.
+    - 22.11.2025. El equipo ha sido devuelto a su ubicación original y está listo para su uso.
+
+ID Orden: 1030
+  ID Equipo: EQ2023019
+  Descripción: Necesita calibración
+  Prioridad: baja
+  Estado: CERRADA
+  Fecha Creación: 2025-11-13
+  Seguimiento:
+    - 15.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+    - 17.11.2025. La pieza ha llegado. Se procederá con la reparación.
+    - 19.11.2025. Esperando la llegada de una pieza de repuesto (batería modelo XYZ).
+    - 22.11.2025. El técnico ha sido asignado y se espera que revise el equipo en las próximas 24 horas.
+
