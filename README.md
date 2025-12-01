@@ -1,70 +1,74 @@
-# Proyecto: Orquestador de Operaciones de Ingeniería Clínica
+# Project: Clinical Engineering Operations Orchestrator
 
-Este proyecto implementa un asistente de IA avanzado, el "Orquestador de Operaciones de Ingeniería Clínica", diseñado para optimizar el flujo de trabajo de los técnicos de electromedicina. Utilizando el modelo `gemini-2.5-flash` de Google, el agente gestiona el mantenimiento de equipos clínicos, la creación de órdenes de trabajo y el seguimiento de reparaciones a través de una interfaz conversacional.
+This project implements an AI assistant, the "Clinical Engineering Operations Orchestrator," designed to optimize the workflow of biomedical technicians.
 
-## Características Principales
+## Main Features
 
-- **Gestión de Órdenes de Trabajo:** Creación y actualización de órdenes de mantenimiento para equipos médicos.
-- **Consulta de Inventario:** Acceso rápido a la información y el historial de cualquier equipo clínico registrado.
-- **Generación de Resúmenes Automáticos:** Después de añadir una nota de seguimiento a una orden, el sistema utiliza un LLM para generar y actualizar un resumen del historial de mantenimiento del equipo.
-- **Interacción Inteligente:** El agente está instruido para comprender la terminología técnica y asistir a los técnicos en sus tareas diarias.
-- **Framework ADK:** Construido sobre el App Development Kit (ADK) de Google, lo que permite una integración nativa con los servicios de IA de Google.
+- **Work Order Management:** Updates maintenance orders for medical equipment.
+- **Inventory Inquiry:** Access to the history of any registered clinical equipment.
+- **Automatic Summary Generation:** After adding a follow-up note to an order, the system writes a summary of frequent failures, materials, and the status of the medical equipment.
 
-## Cómo Empezar
+## How to Get Started
 
-Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local.
+### 1. Prerequisites
 
-### 1. Prerrequisitos
+- Python 3.9 or higher.
+- A Google API key.
 
-- Python 3.9 o superior.
-- Una clave de API de Google.
+### 2. Configuration
 
-### 2. Configuración
+1.  **Clone the repository:**
 
-1.  **Clona el repositorio:**
-    ```bash
-    git clone <URL_DEL_REPOSITORIO>
-    cd <NOMBRE_DEL_DIRECTORIO>
-    ```
-
-2.  **Instala las dependencias:**
-    Crea un entorno virtual e instala los paquetes necesarios.
+2.  **Install dependencies:**
+    Create a virtual environment and install the necessary packages.
     ```bash
     python -m venv venv
-    source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     pip install -r requirements.txt
     ```
 
-3.  **Configura la clave de API:**
-    Crea un archivo llamado `.env` en la raíz del proyecto y añade tu clave de API de Google:
+3.  **Configure the API key:**
+    Create a file named `.env` in the project root and add your Google API key:
     ```
-    GOOGLE_API_KEY="TU_CLAVE_DE_API_AQUI"
+    GOOGLE_API_KEY="YOUR_API_KEY_HERE"
     ```
 
-### 3. Ejecución
+### 3. Execution
 
-Esta aplicación está diseñada para ejecutarse con la CLI de ADK. Para iniciar la interfaz web, ejecuta el siguiente comando en tu terminal:
+This application is designed to run with the ADK CLI. To start the web interface, run the following command in your terminal:
 
 ```bash
 adk web
 ```
 
-Esto levantará un servidor local con la interfaz de usuario para interactuar con el agente.
+This will spin up a local server with the user interface to interact with the agent.
+When the project starts, an inventory of 10 medical devices with registered maintenance orders is generated in memory (loader.py).
+Additionally, a call is made to generate summaries for the equipment, which are created from the follow-ups of the maintenance orders. Each time a follow-up line is added, the LLM is also called to update this summary.
 
-## Estructura del Proyecto
+# How does this help my work?
+
+The main problem I set out to solve is that in my job, the database used does not allow for easy searching of the comments section of orders, which is the richest section of information, as technicians write down the steps taken, follow-ups, and sometimes guides on how to change parts or configure equipment. The main objective of the project was to implement a RAG agent to answer questions about equipment failures, with the ability to perform semantic searches on the characteristic equipment manual and also by consulting the comments section of orders for that equipment model.
+
+**This objective was not achieved.**
+
+However, the system presented in this Project helped me explore more LLM functionality options. The possibility of creating a summary for each piece of equipment was not in my plans, and while this implementation is not the best, it could be refined to easily generate a general summary of the status of equipment for an entire clinic, or the status of equipment managed by each provider to facilitate preparation for meetings with them.
+
+## Project Structure
 
 ```
 .
-├── .env                  # Archivo para variables de entorno (API Key)
-├── app.py                # Punto de entrada de la aplicación ADK
-├── requirements.txt      # Dependencias de Python
+├── .env                  # Environment variables file (API Key)
+├── app.py                # ADK application entry point
+├── requirements.txt      # Python dependencies
 ├── src/
-│   ├── agent.py          # Definición del agente principal (root_agent) y sus instrucciones
+│   ├── agent.py          # Main agent definition (root_agent) and its instructions
 │   ├── data/
-│   │   └── loader.py     # Carga de datos de prueba en la base de datos en memoria
+│   │   └── loader.py     # Loads test data into the in-memory database
 │   ├── lib/
-│   │   └── resumen_utils.py # Utilidad para generar resúmenes de historial
-│   ├── models/           # Define las estructuras de datos (Equipo, Orden, etc.) y el gestor de BBDD
-│   └── tools/            # Herramientas que el agente puede ejecutar (consultar equipo, crear orden, etc.)
+│   │   └── resumen_utils.py # Utility for generating history summaries
+│   ├── models/           # Defines data structures (Equipment, Order, etc.) and the DB manager
+│   └── tools/            # Tools the agent can execute (query equipment, create order, etc.)
 └── ...
 ```
+
+# Thank you for teaching this course!
